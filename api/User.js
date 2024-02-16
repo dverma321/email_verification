@@ -156,7 +156,9 @@ const sendVerificationEmail = ({ _id, email }, res) => {
 
 
     // url to be used in the email current local and after hosting  use hosting website url
-    const currentUrl = "http://localhost:3000/"; // choose render url while online
+    // const currentUrl = "http://localhost:3000/"; // choose render url while online
+
+    const currentUrl = "https://email-verification-vmij.onrender.com/"; // choose render url while online
     const uniqueString = uuidv4() + _id;
 
     // create mail options
